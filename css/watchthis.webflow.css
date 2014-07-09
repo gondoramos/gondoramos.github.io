@@ -281,7 +281,7 @@ p {
   margin-right: 7px;
   margin-left: 7px;
   padding-top: 9px;
-  float: right;
+  float: left;
   border-radius: 40px;
   background-color: #596073;
   -webkit-transition: all 200ms ease;
@@ -423,7 +423,7 @@ p {
   }
   .company {
     display: inline-block;
-    float: right;
+    float: left;
   }
   .nav-column {
     padding-top: 19px;
@@ -481,6 +481,10 @@ p {
   .footer-text {
     margin-bottom: 22px;
   }
+  .social-icon {
+    float: left;
+    clear: none;
+  }
   .social-icon.first {
     margin-left: 1px;
   }
@@ -488,8 +492,10 @@ p {
     text-align: center;
   }
   .nav-bar {
+    max-width: 577px;
     padding-top: 26px;
     padding-bottom: 26px;
+    float: left;
   }
   .brand-column {
     text-align: center;
@@ -499,13 +505,12 @@ p {
     text-align: left;
   }
   .headercol {
+    display: inline;
+    padding-top: 20px;
     padding-right: 240px;
   }
   .bodycontainer {
     display: block;
-  }
-  .bodycontainer.listcontainermobile {
-    max-width: 529px;
   }
   .crylistcontainer {
     padding-left: 20px;
@@ -527,11 +532,14 @@ p {
     padding-right: 11px;
   }
   .section.hero {
+    max-width: 480px;
     padding-right: 15px;
-    padding-left: 15px;
-  }
-  .section.hero.bodycontainermobile {
     padding-left: 0px;
+  }
+  .section.footer {
+    max-width: 329px;
+    padding-top: 12px;
+    padding-bottom: 32px;
   }
   .nav-link {
     display: block;
@@ -539,11 +547,13 @@ p {
     padding-bottom: 8px;
   }
   .hero-heading {
-    font-size: 20px;
-    font-weight: 400;
+    margin-bottom: 0px;
+    font-size: 19px;
   }
   .hero-subhead {
     margin-bottom: 34px;
+    padding-bottom: 0px;
+    font-size: 12px;
   }
   .grey-icon {
     margin-top: 34px;
@@ -559,27 +569,16 @@ p {
     background-image: url('../images/12-quotes.png');
     background-position: 8% 17%;
   }
-  .social-icon {
-    margin-right: 0px;
-    margin-left: 15px;
-  }
   .nav-bar {
-    max-width: 550px;
+    max-width: 480px;
   }
   .crylistitem {
-    font-size: 18px;
-  }
-  .headercol {
-    padding-top: 17px;
-    padding-right: 240px;
-  }
-  .bodycontainer.listcontainermobile {
-    width: auto;
-    max-width: 330px;
-    margin-left: 0px;
+    margin-top: 4px;
+    font-size: 14px;
   }
   .crylistcontainer {
-    width: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
   }
 }
 
