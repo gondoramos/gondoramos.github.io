@@ -338,6 +338,9 @@ p {
 .crylink:hover {
   font-weight: 400;
 }
+.headercol {
+  position: static;
+}
 @media (max-width: 991px) {
   .button.nav {
     margin-left: 11px;
@@ -347,10 +350,21 @@ p {
   .button.big-green {
     margin-top: 148px;
   }
+  .company {
+    margin-left: 0px;
+    float: left;
+  }
   .nav-link {
     margin-right: 7px;
     margin-left: 7px;
     font-size: 13px;
+  }
+  .hero-heading {
+    float: left;
+  }
+  .hero-subhead {
+    padding-left: 10px;
+    float: left;
   }
   .grey-icon {
     margin-top: 19px;
@@ -370,6 +384,18 @@ p {
     margin-bottom: 10px;
     padding-top: 4px;
     font-size: 15px;
+  }
+  .headercol {
+    position: static;
+    display: inline;
+    padding-right: 200px;
+    text-align: left;
+  }
+  .headercontainer {
+    margin-left: 50px;
+  }
+  .bodycontainer {
+    margin-left: 50px;
   }
 }
 @media (max-width: 767px) {
@@ -392,11 +418,12 @@ p {
     padding-top: 42px;
   }
   .section.footer {
+    padding-left: 0px;
     text-align: center;
   }
   .company {
     display: inline-block;
-    float: none;
+    float: right;
   }
   .nav-column {
     padding-top: 19px;
@@ -414,6 +441,13 @@ p {
   .hero-heading {
     font-size: 28px;
     line-height: 34px;
+  }
+  .hero-subhead {
+    position: static;
+    display: inline;
+    padding-left: 5px;
+    float: left;
+    clear: left;
   }
   .grey-icon {
     margin-top: 28px;
@@ -460,6 +494,22 @@ p {
   .brand-column {
     text-align: center;
   }
+  .crylistitem {
+    float: none;
+    text-align: left;
+  }
+  .headercol {
+    padding-right: 240px;
+  }
+  .bodycontainer {
+    display: block;
+  }
+  .bodycontainer.listcontainermobile {
+    max-width: 529px;
+  }
+  .crylistcontainer {
+    padding-left: 20px;
+  }
 }
 @media (max-width: 479px) {
   .button {
@@ -480,10 +530,17 @@ p {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .section.hero.bodycontainermobile {
+    padding-left: 0px;
+  }
   .nav-link {
     display: block;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+  .hero-heading {
+    font-size: 20px;
+    font-weight: 400;
   }
   .hero-subhead {
     margin-bottom: 34px;
@@ -501,6 +558,28 @@ p {
     padding-left: 75px;
     background-image: url('../images/12-quotes.png');
     background-position: 8% 17%;
+  }
+  .social-icon {
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+  .nav-bar {
+    max-width: 550px;
+  }
+  .crylistitem {
+    font-size: 18px;
+  }
+  .headercol {
+    padding-top: 17px;
+    padding-right: 240px;
+  }
+  .bodycontainer.listcontainermobile {
+    width: auto;
+    max-width: 330px;
+    margin-left: 0px;
+  }
+  .crylistcontainer {
+    width: 100%;
   }
 }
 
