@@ -492,7 +492,7 @@ p {
     text-align: center;
   }
   .nav-bar {
-    max-width: 577px;
+    max-width: 767px;
     padding-top: 26px;
     padding-bottom: 26px;
     float: left;
@@ -537,8 +537,9 @@ p {
     padding-left: 0px;
   }
   .section.footer {
-    max-width: 329px;
+    max-width: 330px;
     padding-top: 12px;
+    padding-right: 20px;
     padding-bottom: 32px;
   }
   .nav-link {
@@ -570,11 +571,17 @@ p {
     background-position: 8% 17%;
   }
   .nav-bar {
-    max-width: 480px;
+    display: block;
+    width: 100%;
+    max-width: 479px;
   }
   .crylistitem {
     margin-top: 4px;
     font-size: 14px;
+  }
+  .headercol {
+    overflow-x: visible;
+    overflow-y: visible;
   }
   .crylistcontainer {
     margin-left: 0px;
